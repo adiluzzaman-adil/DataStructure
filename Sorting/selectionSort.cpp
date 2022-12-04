@@ -2,6 +2,11 @@
 #include <cmath>
 using namespace std;
 
+/*  1. Fix a position in given array starting from index 0.
+    2. Compare step 1 index 0 value with next the position.
+    3. If value of next position < value of step 1 index 0, then swap it.
+ */
+
 void printArray(int arr[], int size)
 {
 
